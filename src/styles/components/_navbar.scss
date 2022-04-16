@@ -1,0 +1,12 @@
+.navbar__navItem {
+    color: $secundary;
+    font-size: 1.5rem;
+    text-decoration: none;
+    &:hover{
+        color: darken($color: $secundary, $amount: 5);;
+    }
+    
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem $secundary;
+}
