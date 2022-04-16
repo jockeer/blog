@@ -2,11 +2,19 @@
     color: $secundary;
     font-size: 1.5rem;
     text-decoration: none;
+    transition: color .2s ease-in-out;
     &:hover{
-        color: darken($color: $secundary, $amount: 5);;
+        color: darken($color: $secundary, $amount: 5);
     }
     
 }
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0.25rem $secundary;
+}
+.offcanvas-header{
+    background-color: lighten($color: $primary, $amount: 0);
+}
+
+.offcanvas-body{
+//  background-color: darken($color: $secundary, $amount: 0);
 }
