@@ -1,0 +1,43 @@
+.projects__project{
+    min-width: 300px;
+    max-width: 400px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.75);
+}
+.projects__back-project{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -500px;
+    background-color: rgba(0, 0, 0, 0.615);
+    opacity: 0;
+    visibility: hidden;
+    height: 400px;
+    max-width: 400px;
+    min-width: 300px;
+    width: inherit;
+    
+    
+}
+.projects__project:hover .projects__back-project{
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    transition: opacity .3s ease;
+    transition: left .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.proyecto-item{
+    min-width: 300px;
+    max-width: 400px;
+    width: 400px;
+    padding: 0 20px;
+}

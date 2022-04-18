@@ -21,9 +21,9 @@ export const Navbar = () => {
                 </div>
                 <div className="offcanvas-body">
                     <div className='navbar-nav justify-content-end flex-grow-1'>
-                        <Link className="navbar__navItem me-5" to={'/'} > <h5>About</h5> </Link>
+                        <Link className="navbar__navItem me-5" to='/' > <h5>About</h5> </Link>
                         <Link className="navbar__navItem me-5" to={'/'} > <h5>Projects</h5> </Link>
-                        <Link className="navbar__navItem me-5" to={'/'} > <h5>Contact</h5> </Link>
+                        <a className="navbar__navItem me-5" href='#contact' > <h5>Contact</h5> </a>
                     </div>
 
                     {/* <ul className="navbar-nav justify-content-end flex-grow-1">

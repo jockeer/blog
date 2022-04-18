@@ -1,0 +1,10 @@
+.footer__icon{
+    font-size: 2.5rem;
+    transition: transform .2s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.footer__redes a{
+    color: $secundary;
+}

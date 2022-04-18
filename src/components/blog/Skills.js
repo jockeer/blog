@@ -7,6 +7,7 @@ export const Skills = () => {
             <center>
                 <h1><u><i><b>Technologies</b> </i> </u></h1>
             </center>
+            
             <br />
             <br />
             <div className="skills__tecnologias d-flex flex-wrap justify-content-center">
@@ -17,7 +18,7 @@ export const Skills = () => {
                 <i className='fa-brands fa-bootstrap me-4' style={{color:'#8412FA'}}></i>
                 <i className='fa-brands fa-git-alt me-4' style={{color:'#F05033'}}></i>
                 <i className='fa-brands fa-github me-4' style={{color:'#000'}}></i>
-                <img className='me-4' src="https://cdn-icons.flaticon.com/png/512/1493/premium/1493169.png?token=exp=1650137378~hmac=09862168c86928f1a8805ca09427e1ac" alt="api" />
+                <img className='me-4' src="https://image.shutterstock.com/image-vector/cogwheel-icon-api-sign-web-260nw-1791940115.jpg" alt="api" />
                 <img className='me-4' src="http://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png" alt="postgreSQL" />
                 <img className='me-4' src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="Mongo" />
                 <img className='me-4' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="node"/>
