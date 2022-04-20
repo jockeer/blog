@@ -5,7 +5,7 @@ export const Skills = () => {
     <div className='skills__bg pt-5 pb-5'>
         <div className="container">
             <center>
-                <h1><u><i><b>Technologies</b> </i> </u></h1>
+                <h1 className='skills__title'><u><i><b>Technologies</b> </i> </u></h1>
             </center>
             
             <br />
@@ -17,7 +17,7 @@ export const Skills = () => {
                 <i className="fa-brands fa-js me-4" style={{color:'#F7DF1E'}}></i>
                 <i className='fa-brands fa-bootstrap me-4' style={{color:'#8412FA'}}></i>
                 <i className='fa-brands fa-git-alt me-4' style={{color:'#F05033'}}></i>
-                <i className='fa-brands fa-github me-4' style={{color:'#000'}}></i>
+                <i className='fa-brands fa-github me-4' style={{color:'#fff'}}></i>
                 <img className='me-4' src="https://image.shutterstock.com/image-vector/cogwheel-icon-api-sign-web-260nw-1791940115.jpg" alt="api" />
                 <img className='me-4' src="http://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png" alt="postgreSQL" />
                 <img className='me-4' src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="Mongo" />

@@ -1,8 +1,11 @@
 import React from 'react'
 
+// import Foto from '../../assets/foto.png'
+
 export const Jumbotron = () => {
   return (
-    <>
+    <div className='jumbotron__container'>
+    
         <br />
         <br />
         <br />
@@ -22,6 +25,6 @@ export const Jumbotron = () => {
         <br />
         <br />
         <br />
-    </>
+    </div>
   )
 }

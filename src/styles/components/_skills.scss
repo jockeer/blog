@@ -1,9 +1,12 @@
 .skills__bg{
-    background-color:  $white;
+    background-color: $primary;
 }
 .skills__tecnologias i {
     font-size: 4rem;
 }
 .skills__tecnologias img {
     height: 70px;
+}
+.skills__title{
+    color: $secundary;
 }

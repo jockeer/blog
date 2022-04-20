@@ -1,4 +1,9 @@
-
+.jumbotron__container{
+    background-image: url('../../assets/foto.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 80%;
+}
 .btn{
     background-color: $secundary;
     color: $primary;
