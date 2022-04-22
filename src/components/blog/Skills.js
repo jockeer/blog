@@ -19,7 +19,7 @@ export const Skills = () => {
                 <i className='fa-brands fa-git-alt me-4' style={{color:'#F05033'}}></i>
                 <i className='fa-brands fa-github me-4' style={{color:'#fff'}}></i>
                 <img className='me-4' src="https://image.shutterstock.com/image-vector/cogwheel-icon-api-sign-web-260nw-1791940115.jpg" alt="api" />
-                <img className='me-4' src="http://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png" alt="postgreSQL" />
+                <img className='me-4' src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="postgreSQL" />
                 <img className='me-4' src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="Mongo" />
                 <img className='me-4' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="node"/>
                 <img className='me-4' src="https://logowik.com/content/uploads/images/flutter5786.jpg" alt="flutter"/>

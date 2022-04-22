@@ -9,9 +9,6 @@ export const BlogApp = () => {
         <ProjectState>
           <AppRoutes />
 
-        </ProjectState>
-
-      
-    
+        </ProjectState>   
   )
 }

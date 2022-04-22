@@ -16,8 +16,6 @@ export const ProjectState = ({children}) => {
         const resp = await peticionSinToken('projects')
 
         const data = await resp.json()
-
-        console.log(data);
         dispatch({
             type: types.prGetProjects,
             payload: data.proyectos

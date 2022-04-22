@@ -19,9 +19,9 @@ export const Jumbotron = () => {
         <br />
         </p>
         <p>Trabajando desde el inicio hasta el deploy de la App y/o Pagina Web.</p>
-        <div className="btn">
+        <a href='#contact' className="btn">
           Contact me
-        </div>
+        </a>
         <br />
         <br />
         <br />
